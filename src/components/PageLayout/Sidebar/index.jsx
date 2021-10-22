@@ -28,10 +28,13 @@ const DomContent = () => (
       </div>
       <div className={`${style.badge} ${style.badgeGray}`}>Desarrollador web full stack</div>
       <div className="centerAlign box">
-        <a href={facebook} target="_blank" label="button" rel="noopener noreferrer"><FA name="facebook-f" /></a>
-        <a href={twitter} target="_blank" label="button" rel="noopener noreferrer"><FA name="twitter" /></a>
-        <a href={github} target="_blank" label="button" rel="noopener noreferrer"><FA name="github" /></a>
-        <a href={instagram} target="_blank" label="button" rel="noopener noreferrer"><FA name="instagram" /></a>
+        <a href={'https://www.facebook.com/jaime.oswaldo.oj'} target="_blank" label="button" rel="noopener noreferrer"><FA name="facebook-f" /></a>
+        <a href={'https://twitter.com/jaimeoj'} target="_blank" label="button" rel="noopener noreferrer"><FA name="twitter" /></a>
+        <a href={'https://github.com/joja1990'} target="_blank" label="button" rel="noopener noreferrer"><FA name="github" /></a>
+        <a href={'https://www.linkedin.com/in/jaime-oswaldo-oj-alonzo-847251137'} target="_blank" label="button" rel="noopener noreferrer"><FA name="linkedin" /></a>
+        {/* <a href={'https://www.instagram.com/jam_oswald/'} target="_blank" label="button" rel="noopener noreferrer"><FA name="instagram" /></a> */}
+        <a href={'https://play.google.com/store/apps/developer?id=Jaime+Oswaldo+Oj+Alonzo'} target="_blank" label="button" rel="noopener noreferrer"><FA name="google" /></a>
+
       </div>
       <ul className={`box ${style.badge} contactBlock`}>
         <li className={`${style.contactBlockItem}`}>
@@ -39,19 +42,19 @@ const DomContent = () => (
             <FeatherIcon size="19" icon="calendar" />
             {' '}
           </span>
-&nbsp; &nbsp; May 9,1995
+&nbsp; &nbsp; Sept 15 1992
         </li>
         <li className={`${style.contactBlockItem}`}>
           <span><FeatherIcon size="19" icon="map-pin" /></span>
           {' '}
-&nbsp; &nbsp; Bangalore, India
+&nbsp; &nbsp; Chimaltenango, Guatemala
         </li>
         <li className={`${style.contactBlockItem}`}>
           <span><FeatherIcon size="19" icon="mail" /></span>
           {' '}
 &nbsp; &nbsp;
           <a
-            href="mailto:&#114;&#111;&#108;&#119;&#105;&#110;&#109;&#111;&#110;&#116;&#101;&#105;&#114;&#111;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"
+            href="mailto:jaime.oswaldo.ojalonzo@gmail.com;"
             target="_top"
           >
             <span className={style.emailHider}>@</span>
