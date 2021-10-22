@@ -1,9 +1,9 @@
 module.exports = {
   pathPrefix: '',
-  siteUrl: 'https://rolwinreevan.com',
-  siteTitle: 'Rolwin Reevan',
-  siteDescription: 'Logbook of a software developer',
-  author: 'Rolwin Reevan',
+  siteUrl: 'websitejaimeoj.gtsb.io',
+  siteTitle: 'Jaime Oswaldo Oj Alonzo',
+  siteDescription: 'Mi portafolio',
+  author: 'Jaime Oswaldo Oj Alonzo',
   postsForArchivePage: 3,
   defaultLanguage: 'en',
   disqusScript: process.env.DISQUS_SCRIPT || 'https://rolwinreevan.disqus.com/embed.js',
