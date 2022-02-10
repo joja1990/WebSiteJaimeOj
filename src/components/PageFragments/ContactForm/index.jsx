@@ -44,7 +44,7 @@ export default () => {
         </Form.Item> */}
         <Form.Item>
           <Button href="mailto:jaime.oswaldo.ojalonzo@gmail.com;" type="primary" shape="round" size="large" htmlType="submit" style={{ background: '#304CFD' }}>
-            Enviar correo a jaime.oswaldo.ojalonzo@gmail.com
+            Enviar correo a jaime.oswaldo.ojalonzo@gmail.com  
           </Button>
     
         </Form.Item>
