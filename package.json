@@ -1,13 +1,14 @@
 {
-  "name": "rolwinreevan_gatsby_blog",
+  "name": "jaime portafolio",
   "private": true,
-  "description": "the most beautiful gatsby template ever designed using antd",
+  "description": "Template de gatsby",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "deploy": "npm run clean && gatsby build --prefix-paths && gh-pages -d public",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
@@ -58,6 +59,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rolwin100/rolwinreevan_gatsby_blog"
+    "url": "https://github.com/joja1990/WebSiteJaimeOj/tree/main"
   }
 }
