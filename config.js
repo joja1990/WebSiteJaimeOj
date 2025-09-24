@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: 'WebSiteJaimeOj',
+  pathPrefix: '/websitejaimeoj',
   siteUrl: 'https://websitejaimeoj.gtsb.io',
   siteTitle: 'Jaime Oswaldo Oj Alonzo',
   siteDescription: 'Mi portafolio',
