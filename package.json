@@ -22,6 +22,7 @@
     "gatsby": "^2.29.2",
     "gatsby-image": "^2.3.1",
     "gatsby-plugin-antd": "^2.2.0",
+    "gatsby-plugin-eslint-v2": "^2.0.0-beta.0",
     "gatsby-plugin-google-analytics": "^2.2.2",
     "gatsby-plugin-i18n": "^1.0.1",
     "gatsby-plugin-less": "^3.0.19",
@@ -55,7 +56,6 @@
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.19.0",
-    "gatsby-plugin-eslint-v2": "^2.0.0-beta.0",
     "gh-pages": "^6.3.0",
     "prettier": "^1.19.1"
   },
