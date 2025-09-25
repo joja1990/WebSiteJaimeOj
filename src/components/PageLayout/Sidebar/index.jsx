@@ -8,12 +8,10 @@ import FeatherIcon from 'feather-icons-react';
 import { globalHistory } from '@reach/router';
 import style from './sidebar.module.less';
 import { useWindowSize } from '../../../utils/hooks';
-import Config from '../../../../config';
+// import Config from '../../../../config';
 
 const { Content } = Layout;
-const {
-  facebook, github, instagram, twitter,
-} = Config.social;
+// const {  facebook, github, instagram, twitter,} = Config.social;
 
 const DomContent = () => (
   <aside>
@@ -28,12 +26,11 @@ const DomContent = () => (
       </div>
       <div className={`${style.badge} ${style.badgeGray}`}>Desarrollador web full stack</div>
       <div className="centerAlign box">
-        <a href={'https://www.facebook.com/jaime.oswaldo.oj'} target="_blank" label="button" rel="noopener noreferrer"><FA name="facebook-f" /></a>
-        <a href={'https://twitter.com/jaimeoj'} target="_blank" label="button" rel="noopener noreferrer"><FA name="twitter" /></a>
-        <a href={'https://github.com/joja1990'} target="_blank" label="button" rel="noopener noreferrer"><FA name="github" /></a>
-        <a href={'https://www.linkedin.com/in/jaime-oswaldo-oj-alonzo-847251137'} target="_blank" label="button" rel="noopener noreferrer"><FA name="linkedin" /></a>
-        {/* <a href={'https://www.instagram.com/jam_oswald/'} target="_blank" label="button" rel="noopener noreferrer"><FA name="instagram" /></a> */}
-        <a href={'https://play.google.com/store/apps/developer?id=Jaime+Oswaldo+Oj+Alonzo'} target="_blank" label="button" rel="noopener noreferrer"><FA name="google" /></a>
+        <a href='https://www.facebook.com/jaime.oswaldo.oj' target="_blank" label="button" rel="noopener noreferrer"><FA name="facebook-f" /></a>
+        <a href='https://twitter.com/jaimeoj' target="_blank" label="button" rel="noopener noreferrer"><FA name="twitter" /></a>
+        <a href='https://github.com/joja1990' target="_blank" label="button" rel="noopener noreferrer"><FA name="github" /></a>
+        <a href='https://www.linkedin.com/in/jaime-oswaldo-oj-alonzo-847251137' target="_blank" label="button" rel="noopener noreferrer"><FA name="linkedin" /></a>
+        <a href='https://play.google.com/store/apps/developer?id=Jaime+Oswaldo+Oj+Alonzo' target="_blank" label="button" rel="noopener noreferrer"><FA name="google" /></a>
 
       </div>
       <ul className={`box ${style.badge} contactBlock`}>

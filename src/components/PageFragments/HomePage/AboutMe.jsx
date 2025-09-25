@@ -1,6 +1,6 @@
 import React from 'react';
-import { Row, Col } from 'antd';
-import AboutTile from '../../AbouTile';
+// import { Row, Col } from 'antd';
+// import AboutTile from '../../AbouTile';
 import { stripTags, domHtml } from '../../../utils/stripTags';
 
 import SEO from '../../Seo';
@@ -14,7 +14,7 @@ const pageText = {
   herramientas de desarrollo.`,
   paraTwo: `Actualmente estoy trabajando aplicaciones con tecnologías Javascript como ReactJS y  Gatsby. También tengo experiencia en la herramientos como Azure DevOps para  CI / CD con una aplicación en .Net, y varias con Reactjs.
   `,
-  parmTree: ` He utilizado varias herramientas con Sql Server como los Jobs para realizar tareas en horarios especificos, con las diferentes alertas que posee.  `,
+  parmTree: `He utilizado varias herramientas con Sql Server como los Jobs para realizar tareas en horarios especificos, con las diferentes alertas que posee.`,
 };
 
 const AboutMe = () => {
@@ -26,7 +26,7 @@ const AboutMe = () => {
           title="Acerca de mi"
           description={description}
           path=""
-          keywords={['C#',   'devops', 'FullStack developer', 'Javascript', 'ReactJS', 'NodeJS', 'Gatsby']}
+          keywords={['C#', 'devops', 'FullStack developer', 'Javascript', 'ReactJS', 'NodeJS', 'Gatsby']}
         />
         <h1 className="titleSeparate">Acerca de mi</h1>
         <p>
