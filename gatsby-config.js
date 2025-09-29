@@ -6,7 +6,7 @@
 
 const config = require('./config');
 const plugins = require('./gatsby-config.plugins');
-
+require('events').EventEmitter.defaultMaxListeners = 30;
 module.exports = {
   pathPrefix: config.pathPrefix,
   siteMetadata: {
