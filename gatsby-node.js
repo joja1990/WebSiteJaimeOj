@@ -4,10 +4,7 @@ const path = require('path');
 const config = require('./config');
 const utils = require('./src/utils/pageUtils');
 
-if (typeof ReadableStream === "undefined") {
-  global.ReadableStream = require("web-streams-polyfill/ponyfill").ReadableStream;
-}
-
+require("./polyfill-readable-stream");
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;
 
